@@ -1,7 +1,27 @@
-$container-max-widths: (
-  sm: 540px,
-  md: 720px,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px
-);
+.area-container {
+  margin: 20px;
+  padding: 70px;
+  padding-top: 100px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+
+  .h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  li {
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 5px 0;
+    font-size: 18px;
+
+    &:hover {
+      background-color: #e0e0e0;
+      cursor: pointer;
+    }
+  }
+}
